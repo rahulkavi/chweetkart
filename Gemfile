@@ -20,8 +20,13 @@ gem 'pg'
 gem 'haml-rails'
 gem 'jbuilder', '~> 2.0'
 
+# Authentication
+gem 'devise'
+gem 'devise_google_authenticator'
+
 group :development, :test do
   gem 'byebug'
+  gem 'dotenv-rails', '~> 2.0', '>= 2.0.2'
 end
 
 group :development do
