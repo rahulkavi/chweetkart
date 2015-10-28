@@ -22,7 +22,6 @@ gem 'jbuilder', '~> 2.0'
 
 # Authentication
 gem 'devise'
-gem 'devise_google_authenticator'
 
 group :development, :test do
   gem 'byebug'
@@ -32,4 +31,5 @@ end
 group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
+  gem "letter_opener"
 end
